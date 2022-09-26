@@ -1,0 +1,33 @@
+.homepage {
+   padding: 1rem;
+}
+
+.studentDetails, .subjects{
+   margin-top: 10px;
+   width: 800px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+   margin-bottom: 1rem;
+}
+.studentDetails > input, .subject > input {
+   padding: 10px;
+   border-radius: 6px;
+}
+
+.subjects {
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.subject {
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   font-size: 12px;
+   font-weight: bold;
+   margin-bottom: 2px;
+   text-align: right;
+}
+

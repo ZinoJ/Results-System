@@ -1,0 +1,30 @@
+.addcontact {
+   position: relative;
+}
+.addcontact > form {
+   margin-top: 1rem;
+   width: 300px;
+   padding: 1rem;
+   background-color: rgba(17, 17, 17, 0.938);
+   display: flex;
+   gap: 1rem;
+   border-radius: 4px;
+}
+
+.addcontact > form > input {
+   padding: 10px;
+   outline: none;
+   border: none;
+   border-radius: 4px;
+}
+
+.addcontact > form > button {
+   padding-inline: 2rem;
+}
+
+.addcontact__icon {
+   position: absolute;
+   top: -0.5rem;
+   left: 3rem;
+
+}
