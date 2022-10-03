@@ -1,0 +1,38 @@
+.resultstable {
+  background-color: whitesmoke;
+  padding: 1rem 2rem;
+  height: 75vh;
+  border-radius: 8px;
+}
+table {
+   border-collapse: collapse;
+   width: 100%;
+   
+ }
+ 
+ th {
+  color: white;
+   background-color: rgba(0, 0, 0, 0.974);
+   border: 1px solid black;
+   text-align: center;
+   padding: 8px;
+   
+ }
+
+ td {
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  padding: 8px;
+  cursor: pointer;
+ }
+
+ tbody > tr:hover {
+  background-color: rgb(215, 215, 215);
+ }
+ 
+ /* tr:nth-child(even) {
+   background-color: rgb(245, 245, 245);
+   color: black;
+ } */

@@ -1,4 +1,4 @@
-.loginpage {
+.registerpage {
    background-image: linear-gradient(to right,  rgb(12, 3, 21),
     rgb(11, 11, 12));
    height: 100vh;
@@ -6,16 +6,16 @@
    place-items: center;
 }
 
-.loginpage__container {
+.registerpage__container {
    padding: 3rem 2rem 2rem;
    background-color: whitesmoke;
    width: 350px;
-   height: 300px;
+   height: 400px;
    border-radius: 10px;
    text-align: center;
 }
 
-.loginpage__container > form {
+.registerpage__container > form {
    margin-block: 1rem;
    display: flex;
    flex-direction: column;
@@ -25,7 +25,7 @@
    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
-.loginpage__container > form > input {
+.registerpage__container > form > input {
    padding: 1rem 14px;
    background-color: rgb(12, 3, 21);
    border: none;
@@ -33,18 +33,3 @@
    color: white;
    border-radius: 4px;
 }
-
-button {
-   padding: 10px;
-   color: white;
-   background-color: rgb(17, 16, 16);
-   border: none;
-   border-radius: 3px;
-   font-size: 1.2rem;
-}
-
-span {
-   color: brown;
-   cursor: pointer;
-}
-

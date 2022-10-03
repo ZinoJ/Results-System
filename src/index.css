@@ -7,9 +7,13 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right,  rgb(12, 3, 21),
+    rgb(11, 11, 12));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

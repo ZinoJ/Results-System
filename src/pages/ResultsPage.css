@@ -1,0 +1,21 @@
+.resultspage {
+   padding: 1rem 3rem;
+   text-align: center;
+   color: white;
+}
+
+.resultspage > .header {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   margin-bottom: 1.4rem;
+}
+
+/* .btn {
+   background-color: transparent;
+   color: black;
+   margin: 0;
+   padding: 0;
+} */
+
+

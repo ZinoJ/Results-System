@@ -1,7 +1,7 @@
 .addcontact {
    position: relative;
 }
-.addcontact > form {
+.addcontact > .form {
    margin-top: 1rem;
    width: 300px;
    padding: 1rem;
@@ -11,14 +11,14 @@
    border-radius: 4px;
 }
 
-.addcontact > form > input {
+.addcontact > .form > input {
    padding: 10px;
    outline: none;
    border: none;
    border-radius: 4px;
 }
 
-.addcontact > form > button {
+.addcontact > .form > button {
    padding-inline: 2rem;
 }
 

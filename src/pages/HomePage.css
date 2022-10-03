@@ -1,22 +1,56 @@
 .homepage {
+   text-align: center;
+   /* background-image: linear-gradient(to right,  rgb(12, 3, 21),
+    rgb(11, 11, 12)); */
+    color: white;
+}
+
+.homepage > h2 {
+   background-color: white;
+   padding: 1rem;
+   font-weight: 600;
+   color: black;
+   
+}
+
+.homepage > .container h2 {
+   margin-bottom: 2rem;
+   
+}
+
+.homepage > .container {
+   /* background-color: purple; */
+   width: 900px;
+   margin: 0 auto;
    padding: 1rem;
 }
 
-.studentDetails, .subjects{
+.homepage > .container > form {
+   padding-inline: 2rem;
+}
+
+.studentDetails {
    margin-top: 10px;
-   width: 800px;
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 10px;
+   margin-bottom: 2rem;
+}
+
+.subjects {   
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
    margin-bottom: 1rem;
 }
+
 .studentDetails > input, .subject > input {
    padding: 10px;
    border-radius: 6px;
-}
-
-.subjects {
-   grid-template-columns: repeat(3, 1fr);
+   border: none;
+   outline: none;
+   font-size: 14px;
+   font-weight: 500;
 }
 
 .subject {
@@ -25,9 +59,49 @@
 }
 
 label {
-   font-size: 12px;
+   font-size: 14px;
    font-weight: bold;
    margin-bottom: 2px;
    text-align: right;
 }
+
+h4 {
+   margin-bottom: 1.5rem;
+}
+
+.homepage__buttons {
+   margin-top: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.submit {
+   padding-inline: 4rem;
+   color: black;
+   background-color: whitesmoke;
+}
+
+.submit:hover {
+   background-color: rgba(0, 0, 0, 0.765);
+   color: white;
+}
+
+.success {
+   background-color: #198754;
+   margin-inline: 2rem;
+   padding: 0.8rem;
+ }
+
+ .logout {
+   background-color: rgb(25, 102, 106);
+   position: fixed;
+   bottom: 1rem;
+   left: 1rem;
+ }
+
+ .logout:hover {
+   background-color: white;
+   color: black;
+ }
 

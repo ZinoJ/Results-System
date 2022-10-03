@@ -1,0 +1,27 @@
+.actionsBackground {
+   width: 100vw;
+   height: 100vh;
+   background-image: linear-gradient(to right,  rgb(12, 3, 21),
+    rgb(11, 11, 12));
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.actions {
+   padding: 1rem;
+   background-color: whitesmoke;
+   width: 250px;
+   height: 200px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.sub {
+   padding: 10px 5rem;
+}
